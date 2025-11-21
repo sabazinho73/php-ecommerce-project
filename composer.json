@@ -1,12 +1,10 @@
 {
-    "name": "ecommerce-project",
-    "description": "E-commerce PHP application",
-    "type": "project",
-    "require": {
-        "php": ">=7.4"
-    },
-    "scripts": {
-        "start": "php -S 0.0.0.0:$PORT"
-    }
+  "name": "ecommerce/ecommerce-project",
+  "description": "E-commerce PHP application",
+  "type": "project",
+  "require": {},
+  "autoload": {
+    "files": []
+  }
 }
 

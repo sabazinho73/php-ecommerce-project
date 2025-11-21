@@ -1,6 +1,9 @@
 [phases.setup]
 nixPkgs = ["php82"]
 
+[phases.install]
+cmds = ["test -f composer.json && composer install --no-dev --no-interaction || echo 'No composer.json or dependencies needed'"]
+
 [phases.build]
 cmds = ["echo 'Build complete'"]
 
