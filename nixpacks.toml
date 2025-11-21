@@ -1,8 +1,5 @@
 [phases.setup]
-nixPkgs = ["php82", "php82Packages.composer"]
-
-[phases.install]
-cmds = ["composer install --no-dev --optimize-autoloader"]
+nixPkgs = ["php82"]
 
 [phases.build]
 cmds = ["echo 'Build complete'"]
